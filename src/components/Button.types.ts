@@ -1,9 +1,3 @@
-import { MouseEventHandler } from "react";
+import { ButtonProps } from "@mui/material";
 
-export interface ButtonProps {
-  text?: string;
-  primary?: boolean;
-  disabled?: boolean;
-  size?: "small" | "medium" | "large";
-  onClick?: MouseEventHandler<HTMLButtonElement>;
-}
+export interface ClnButtonProps extends ButtonProps {}
